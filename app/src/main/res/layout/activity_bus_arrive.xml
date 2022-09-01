@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.selvashc.webtools.businfo.view.activity.BusStopInfoActivity" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="10dp">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/region_select_combobox_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="100dp"
+                android:text="@string/select_region" />
+
+            <com.selvashc.webtools.businfo.view.spinner.RegionSpinner
+                android:id="@+id/region_select_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@+id/region_select_combobox_label" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="50dp">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/bus_stop_edittext_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="100dp"
+                android:text="@string/bus_stop_name" />
+
+            <com.jawon.han.widget.HanEditText
+                android:id="@+id/bus_stop_edittext"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="400dp"
+                android:labelFor="@+id/bus_stop_edittext_label" />
+
+            <com.jawon.han.widget.HanButton
+                android:id="@+id/search_bus_stop_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="@{()->activity.onClickedSearchBusStop()}"
+                android:text="@string/search" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bus_stop_result_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="50dp"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/search_bus_stop_listview_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="@string/serach_bus_stop_result" />
+
+            <com.jawon.han.widget.HanListView
+                android:id="@+id/search_bus_stop_listview"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="50dp"
+                android:layout_weight="7"
+                android:labelFor="@+id/search_bus_stop_listview_label" />
+
+            <com.jawon.han.widget.HanButton
+                android:id="@+id/advance_search__button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="@{()->activity.onClickedSearchBusArrive()}"
+                android:text="@string/advanced_search" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bus_arrive_result_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="50dp"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/search_bus_arrive_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="@string/bus_arrive_info" />
+
+            <com.jawon.han.widget.HanListView
+                android:id="@+id/search_bus_arrive_listview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_weight="6"
+                android:labelFor="@+id/search_bus_arrive_label" />
+
+            <com.jawon.han.widget.HanButton
+                android:id="@+id/add_bookmark_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="@{()->activity.onClickedAddBookMark()}"
+                android:text="@string/add_bookmark" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

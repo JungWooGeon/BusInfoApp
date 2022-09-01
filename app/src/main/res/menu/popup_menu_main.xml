@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanlib="http://schemas.android.com/apk/res/com.selvashc.webtools.businfo">
+
+    <item
+        android:id="@+id/bus_info"
+        android:title="@string/bus_info"
+        hanlib:brailleShortCutkey="b">
+
+        <menu>
+            <item
+                android:id="@+id/bus_node_info"
+                android:title="@string/route_info_menu"
+                hanlib:brailleCombineKey="hk_Enter"
+                hanlib:brailleHotkey="r"
+                hanlib:brailleShortCutkey="r" />
+            <item
+                android:id="@+id/bus_route_info"
+                android:title="@string/arrive_info"
+                hanlib:brailleCombineKey="hk_Space"
+                hanlib:brailleHotkey="f"
+                hanlib:brailleShortCutkey="f" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/subway_info"
+        android:title="@string/subway_info"
+        hanlib:brailleShortCutkey="m">
+
+        <menu>
+            <item
+                android:id="@+id/subway_stop_info"
+                android:title="@string/arrive_info"
+                hanlib:brailleCombineKey="hk_Enter"
+                hanlib:brailleHotkey="f"
+                hanlib:brailleShortCutkey="f" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/bookmark"
+        android:title="@string/bookmark"
+        hanlib:brailleCombineKey="hk_Enter"
+        hanlib:brailleHotkey="v"
+        hanlib:brailleIsCallDlg="false"
+        hanlib:brailleShortCutkey="v" />
+    <item
+        android:id="@+id/option"
+        android:title="@string/option"
+        hanlib:brailleCombineKey="hk_Backspace"
+        hanlib:brailleHotkey="o"
+        hanlib:brailleIsCallDlg="false"
+        hanlib:brailleShortCutkey="o" />
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        hanlib:brailleCombineKey="hk_Space"
+        hanlib:brailleHotkey="z"
+        hanlib:brailleIsCallDlg="false"
+        hanlib:brailleShortCutkey="z" />
+
+</menu>

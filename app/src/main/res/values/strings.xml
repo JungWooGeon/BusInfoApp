@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">버스 교통 정보</string>
+
+    <!-- API 주소(공통) -->
+    <string name="API_KEY">서비스키</string>
+    <string name="API_URL_BusSearch">https://apis.data.go.kr/1613000/BusRouteInfoInqireService/getRouteNoList</string>
+    <string name="API_URL_BusRouteSearch">https://apis.data.go.kr/1613000/BusRouteInfoInqireService/getRouteAcctoThrghSttnList</string>
+    <string name="API_URL_BusStopSearch">https://apis.data.go.kr/1613000/BusSttnInfoInqireService/getSttnNoList</string>
+    <string name="API_URL_BusArriveTimerSearch">https://apis.data.go.kr/1613000/ArvlInfoInqireService/getSttnAcctoArvlPrearngeInfoList</string>
+
+    <!-- 경기 -->
+    <string name="API_URL_GYEONGGI_BusInfo">http://apis.data.go.kr/6410000/busrouteservice/getBusRouteList</string>
+    <string name="API_URL_GYEONGGI_BusNodeSearch">https://apis.data.go.kr/6410000/busrouteservice/getBusRouteStationList</string>
+
+    <!-- 부산 -->
+    <string name="API_URL_BUSAN_BusSearch">https://apis.data.go.kr/6260000/BusanBIMS/busInfo</string>
+    <string name="API_URL_BUSAN_BusRouteSearch">https://apis.data.go.kr/6260000/BusanBIMS/busInfoByRouteId</string>
+    <string name="API_URL_BUSAN_BusStopSearch">https://apis.data.go.kr/6260000/BusanBIMS/busStopList</string>
+    <string name="API_URL_BUSAN_BusArriveSearch">https://apis.data.go.kr/6260000/BusanBIMS/stopArrByBstopid</string>
+
+    <!-- 지하철(수도권) -->
+    <string name="API_CAPITAL_SUBWAY_KEY">4958784d676a776b34394166777557</string>
+    <string name="API_URL_CAPITAL_SubwayStopSearch">http://openapi.seoul.go.kr:8088</string>
+    <string name="API_URL_CAPITAL_SubwayArriveSearch">http://swopenapi.seoul.go.kr/api/subway</string>
+
+    <!-- 특수문자 -->
+    <string name="space">\u0020</string>
+    <string name="question_mark">\u003F</string>
+    <string name="and">\u0026</string>
+    <string name="equal">=</string>
+    <string name="tab">\t</string>
+    <string name="slash">/</string>
+    <string name="greater_than_sign">></string>
+    <string name="hyphen">-</string>
+    <string name="next_lign">\n</string>
+    <string name="dot">.</string>
+
+    <string name="serviceKey">serviceKey</string>
+    <string name="pageNo">pageNo</string>
+    <string name="_type">_type</string>
+    <string name="cityCode">cityCode</string>
+    <string name="nodeNm">nodeNm</string>
+    <string name="utf8">UTF-8</string>
+    <string name="xml">xml</string>
+    <string name="nodenm">nodenm</string>
+    <string name="nodeno">nodeno</string>
+    <string name="tls">TLS</string>
+    <string name="arsId">arsId</string>
+    <string name="EXTIME_MIN">EXTIME_MIN</string>
+    <string name="ROUTE_NO">ROUTE_NO</string>
+    <string name="ROUTE_TP">ROUTE_TP</string>
+    <string name="reqPage">reqPage</string>
+    <string name="ROUTE_CD">ROUTE_CD</string>
+    <string name="busRouteId">busRouteId</string>
+    <string name="BUSSTOP_NM">BUSSTOP_NM</string>
+    <string name="nodeid">nodeid</string>
+    <string name="BusStopId">BusStopId</string>
+    <string name="keyword">keyword</string>
+    <string name="regionName">regionName</string>
+    <string name="routeId">routeId</string>
+    <string name="routeName">routeName</string>
+    <string name="routeTypeName">routeTypeName</string>
+    <string name="stationName">stationName</string>
+    <string name="stationId">stationId</string>
+    <string name="predictTime1">predictTime1</string>
+    <string name="nodeId">nodeId</string>
+    <string name="routeno">routeno</string>
+    <string name="numOfRows">numOfRows</string>
+    <string name="routeNo">routeNo</string>
+    <string name="routeid">routeid</string>
+    <string name="routetp">routetp</string>
+    <string name="lineno">lineno</string>
+    <string name="buslinenum">buslinenum</string>
+    <string name="bustype">bustype</string>
+    <string name="lineid">lineid</string>
+    <string name="bstopnm">bstopnm</string>
+    <string name="bstopid">bstopid</string>
+    <string name="arsno">arsno</string>
+    <string name="min1">min1</string>
+    <string name="ggb">GGB</string>
+    <string name="arrtime">arrtime</string>
+    <string name="SearchInfoBySubwayNameService">SearchInfoBySubwayNameService</string>
+    <string name="realtimeStationArrival">realtimeStationArrival</string>
+    <string name="updnLine">updnLine</string>
+    <string name="trainLineNm">trainLineNm</string>
+    <string name="barvlDt">barvlDt</string>
+    <string name="arvlMsg2">arvlMsg2</string>
+    <string name="STATION_CD">STATION_CD</string>
+    <string name="STATION_NM">STATION_NM</string>
+    <string name="LINE_NUM">LINE_NUM</string>
+    <string name="subwayId">subwayId</string>
+
+    <string name="number_minus_1">-1</string>
+    <string name="number_0">0</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_10">10</string>
+    <string name="number_25">25</string>
+    <string name="number_100">100</string>
+    <string name="number_1000">1000</string>
+
+    <string name="DAEJEON_RegionCode">25</string>
+    <string name="GYEONGGI_RegionCode">0</string>
+
+    <string name="search">검색</string>
+    <string name="exit">끝내기</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="save">저장</string>
+    <string name="option">옵션</string>
+    <string name="bookmark">즐겨 찾기</string>
+    <string name="bus_info">버스 정보</string>
+    <string name="subway_info">지하철 정보</string>
+    <string name="route_info">노선 정보:</string>
+    <string name="result_list">결과 목록</string>
+    <string name="arrive_info">도착 정보</string>
+    <string name="bus_stop_name">정류장이름</string>
+    <string name="serach_bus_stop_result">정류장 검색 결과</string>
+    <string name="advanced_search">상세 검색</string>
+    <string name="bus_arrive_info">버스 도착 정보</string>
+    <string name="add_bookmark">즐겨 찾기 추가</string>
+    <string name="select_region">지역 선택</string>
+    <string name="bus_num">버스 번호:</string>
+    <string name="bus_num_result">버스 번호 결과</string>
+    <string name="bookmark_list">즐겨 찾기</string>
+    <string name="delete_bookmark">즐겨 찾기 삭제</string>
+    <string name="bus_arrive_alarm_setting">버스 도착 알림 설정</string>
+    <string name="gyeonggi_region_select">경기 지역 선택</string>
+    <string name="stop_numer">정류소 번호 : </string>
+    <string name="route_info_menu">노선 정보</string>
+    <string name="subway_arrive_info">지하철 도착 정보</string>
+    <string name="station">역</string>
+
+    <string name="capital">수도권</string>
+    <string name="busan">부산</string>
+    <string name="daejeon">대전</string>
+    <string name="sejong">세종</string>
+    <string name="gwangju">광주</string>
+    <string name="incheon">인천</string>
+    <string name="daegu">대구</string>
+    <string name="ulsan">울산</string>
+    <string name="jeju">제주</string>
+    <string name="wonju">원주</string>
+    <string name="gyeonggi">경기</string>
+    <string name="suwon">수원</string>
+    <string name="seongnam">성남</string>
+    <string name="uijeongbu">의정부</string>
+    <string name="anyaong">안양</string>
+    <string name="bucheon">부천</string>
+    <string name="gwangmyeong">광명</string>
+    <string name="pyeongtaek">평택</string>
+    <string name="dongducheon">동두천</string>
+    <string name="ansan">안산</string>
+    <string name="goyang">고양</string>
+    <string name="gwacheon">과천</string>
+    <string name="guri">구리</string>
+    <string name="namyangju">남양주</string>
+    <string name="osan">오산</string>
+    <string name="siheung">시흥</string>
+    <string name="gunpo">군포</string>
+    <string name="uiwang">의왕</string>
+    <string name="hanam">하남</string>
+    <string name="yongin">용인</string>
+    <string name="paju">파주</string>
+    <string name="icheon">이천</string>
+    <string name="anseong">안성</string>
+    <string name="gimpo">김포</string>
+    <string name="hwaseong">화성</string>
+    <string name="gwangju_gyeonggi">광주(경기)</string>
+    <string name="yangju">양주</string>
+    <string name="pocheon">포천</string>
+    <string name="yeoju">여주</string>
+    <string name="yeoncheon">연천</string>
+    <string name="gapyeong">가평</string>
+    <string name="yangpyeong">양평</string>
+
+    <string name="bus_type_1">급행</string>
+    <string name="bus_type_2">간선</string>
+    <string name="bus_type_3">지선</string>
+    <string name="bus_type_4">외곽</string>
+    <string name="bus_type_5">마을</string>
+    <string name="bus_type_6">첨단</string>
+
+    <string name="Line1">01호선</string>
+    <string name="Line2">02호선</string>
+    <string name="Line3">03호선</string>
+    <string name="Line4">04호선</string>
+    <string name="Line5">05호선</string>
+    <string name="Line6">06호선</string>
+    <string name="Line7">07호선</string>
+    <string name="Line8">08호선</string>
+    <string name="Line9">09호선</string>
+    <string name="LineShinbundang">신분당선</string>
+    <string name="LineGyeonguiJungang">경의선</string>
+    <string name="LineGyeongchun">경춘선</string>
+    <string name="LineSuinbundang">수인분당선</string>
+    <string name="LineAirport">공항철도</string>
+    <string name="LineWooiShinseol">우이신설경전철</string>
+
+    <string name="start_search_bus_stop">정류장 검색을 시작합니다.</string>
+    <string name="no_result">검색 결과가 없습니다.</string>
+    <string name="bus_num_is">번 버스가</string>
+    <string name="arrive_after_minute">분 후에 도착합니다.</string>
+    <string name="bus_node_info_no_space">버스노선정보</string>
+    <string name="bus_arrive_info_no_space">버스도착정보</string>
+    <string name="subway_arrive_info_no_space">지하철도착정보</string>
+    <string name="fail_add_bookmark">즐겨찾기 추가에 실패하였습니다.</string>
+    <string name="complete_add_bookmark">즐겨찾기 추가가 완료되었습니다.</string>
+    <string name="start_search_bus">버스 검색을 시작합니다.</string>
+    <string name="start_search_bus_node">버스 노선 검색을 시작합니다.</string>
+    <string name="complete_delete_bookmark">즐겨찾기 삭제가 완료되었습니다.</string>
+    <string name="no_delete_list">삭제할 목록이 없습니다.</string>
+    <string name="complete_search">검색이 완료되었습니다.</string>
+    <string name="save_option">옵션 설정이 완료되었습니다.</string>
+    <string name="searching">검색 중</string>
+    <string name="complete_select_region">지역 선택이 완료되었습니다.</string>
+    <string name="select_detail_region">세부 지역을 선택해주세요.</string>
+    <string name="plz_try_again">오류가 발생하였습니다. 잠시 후 다시 시도해주세요.</string>
+
+    <string name="no_use">사용 안함</string>
+    <string name="within_3_minute">3분 이내</string>
+    <string name="within_7_minute">7분 이내</string>
+    <string name="within_10_minute">10분 이내</string>
+
+    <string name="file_name_bookmark">bookmark.txt</string>
+    <string name="file_name_fileoption">timeOption.txt</string>
+
+    <string name="plz_link_network">네트워크 연결을 해주세요.</string>
+    <string name="plz_check_network">네트워크 연결을 확인해주세요.</string>
+
+    <string name="api_error">통신에 오류가 발생하였습니다.</string>
+    <string name="error">error</string>
+
+    <string name="MainActivity">MainActivity</string>
+
+    <string name="IllegalStateException">Your activity is not yet attached to the Application instance. You can\'t request ViewModel before onCreate call.</string>
+</resources>

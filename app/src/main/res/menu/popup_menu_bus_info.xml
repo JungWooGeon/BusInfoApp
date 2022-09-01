@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hanlib="http://schemas.android.com/apk/res/com.selvashc.webtools.businfo">
+
+    <item
+        android:id="@+id/bookmark"
+        android:title="@string/bookmark"
+        hanlib:brailleCombineKey="hk_Enter"
+        hanlib:brailleHotkey="v"
+        hanlib:brailleIsCallDlg="false"
+        hanlib:brailleShortCutkey="v" />
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        hanlib:brailleCombineKey="hk_Space"
+        hanlib:brailleHotkey="z"
+        hanlib:brailleShortCutkey="z" />
+
+</menu>

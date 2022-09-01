@@ -1,0 +1,95 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.selvashc.webtools.businfo.view.activity.MainActivity" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="50dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="50dp"
+            android:paddingBottom="10dp">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/bookmark_listview_Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bookmark_list" />
+
+            <com.jawon.han.widget.HanListView
+                android:id="@+id/bookmark_listview"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:labelFor="@+id/bookmark_listview_Label" />
+
+            <com.jawon.han.widget.HanListEmptyView
+                android:id="@+id/activity_main_emptyview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:labelFor="@id/bookmark_listview_Label" />
+
+        </LinearLayout>
+
+        <com.jawon.han.widget.HanButton
+            android:id="@+id/delete_bookmark_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:onClick="@{()->activity.onClickedDeleteBookmark()}"
+            android:text="@string/delete_bookmark"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/result_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="50dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="50dp"
+            android:paddingBottom="10dp"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/result_list_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result_list" />
+
+            <com.jawon.han.widget.HanEditText
+                android:id="@+id/search_bookmark_result_editext"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:labelFor="@+id/result_list_label" />
+
+            <com.jawon.han.widget.HanListView
+                android:id="@+id/search_bookmark_result_listview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
