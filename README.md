@@ -8,6 +8,14 @@
 
 <br><br>
 
+### 사용
+ * android, android studio
+ * java, AsyncTask, Timer
+ * MVVM
+ * Restful API (공공데이터 포털)
+
+<br><br>
+
 ### 화면
 * 메인 화면 <img src="https://user-images.githubusercontent.com/61993128/187890784-f803cc91-859f-4139-9e2c-475c55fc2d37.PNG"/>
 * 버스 노선 정보 화면 <img src="https://user-images.githubusercontent.com/61993128/187892178-e6f9b65f-c39d-4df7-9333-f216af2d69ce.PNG"/>
