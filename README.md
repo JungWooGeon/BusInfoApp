@@ -11,7 +11,7 @@
 ### 사용
  * android, android studio
  * java, AsyncTask, Timer
- * MVVM
+ * MVVM, Data Binding
  * Restful API (공공데이터 포털)
 
 <br><br>
