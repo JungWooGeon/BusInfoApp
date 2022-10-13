@@ -3,12 +3,12 @@
 
 <br>
 
-#### 이 앱은 시각 장애인들이 사용하는 기기에서 버스 정보를 알려줍니다. 
+#### 💡 이 앱은 시각 장애인들이 사용하는 기기에서 버스 정보를 알려줍니다. 
 시각 장애인들이 대상이기 때문에 UI 부분은 개발자가 알아보기 위한 용도로만 사용되었고, 간단하게 화면을 이동하고 주요 기능을 이용할 수 있도록 제작되었습니다. (터치 방식 x, 전용 기기 키보드로 이동 및 기능 사용)
 
 <br><br>
 
-### 사용
+### 🛠 사용
  * android, android studio
  * java, AsyncTask, Timer
  * MVVM, Data Binding, SharedPreferences, Files
@@ -16,14 +16,14 @@
 
 <br><br>
 
-### 화면
+### 📷 화면
 * 메인 화면 <img src="https://user-images.githubusercontent.com/61993128/187890784-f803cc91-859f-4139-9e2c-475c55fc2d37.PNG"/>
 * 버스 노선 정보 화면 <img src="https://user-images.githubusercontent.com/61993128/187892178-e6f9b65f-c39d-4df7-9333-f216af2d69ce.PNG"/>
 * 버스 도착 정보 화면 <img src="https://user-images.githubusercontent.com/61993128/187892236-8ec00b1f-07e6-496c-8efd-2a3a98c882ca.PNG"/>
 
 <br><br>
 
-### :book: 기능
+### ⭐️ 기능
  * :bus: 버스 노선 정보
    * 버스 번호 : 버스 번호를 검색하여 결과를 확인한 후 결과 목록에서 원하는 버스를 선택할 수 있습니다.
    * 버스 경로 : 버스 번호를 검색한 후 원하는 버스 번호를 선택하여 상세 검색을 하면 해당 버스의 경로가 결과로 나타납니다.
