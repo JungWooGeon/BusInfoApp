@@ -47,4 +47,16 @@
 
 <br><br>
 
-📃 Learned
+### 📃 Learned
+ * Rest API 를 android에서 사용해볼 수 있었음 (공공데이터 포털에서 사용, xml)
+ * 디자인 패턴을 만들어보려고 도전해보면서 공부해볼 수 있었고, 최종적으로 MVVM 패턴으로 만들어 볼 수 있었음
+   <br>   (MVC -> MVP -> MVVM 으로 변경)
+ * java에 맞게 객체지향적으로 앱을 만들어볼 수 있었음 (Base와 상속, singleton 패턴, private과 getter setter 사용 등)
+ * SharedPreferences, Files를 사용해보며, 기기 내부에 정보를 저장해볼 수 있었음
+ * 이 애플리케이션을 탑재할 기기에 사용하는 전용 library가 있었는데, 버전이 낮은 android studio와 gradle에서만 호환이 되어 앱을 만드는데 어려움을 느꼈음
+   - 구현하고자 하는 기능이나 주의할 점 등을 검색을 하면 최신 정보 위주로 나와 있어 원하는 정보를 찾는 데에 어려움을 겪었음
+   - 최신 기능들을 추가하고자 gradle에 추가하면, 전용 library에서 error가 발생하여 기능들을 추가하지 못하였음
+     <br> (예) Rxjava로 구현해보고자 하였지만, 기기 전용 library와 호환이 되지 않아 Deprecated 된 AsyncTask를 사용하였음)
+ * 전용 library에서 AppCompatAcitivy를 사용하지 않고, Activity를 상속받아 사용하여 MVVM을 구현하기 위한 Lifecycle을 직접 저장하고 관리해주었음
+ * 이 앱에서는 UI 구성요소나 기능이 많지 않아 Data Binding이 딱히 필요하지 않았지만, MVVM과 잘 맞기 때문에 사용해보았음
+ * sonarqube를 이용하여 code smell과 bug를 확인해보고 수정해볼 수 있었음
